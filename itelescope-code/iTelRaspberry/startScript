@@ -1,0 +1,4 @@
+sudo hciconfig hci0 piscan
+cd /home/pi/iTelRaspberry
+sudo python iTelescope.py
+

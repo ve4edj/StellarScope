@@ -1,0 +1,68 @@
+##iTelescope installation notes for the iTelRaspberry module
+
+##Simon Box 2013
+
+#This file lists the dependencies that must be satisfied on the raspberry pi for the iTelescope project.
+#The procedure below has been tested on the rasbian-wheezy operating system. 
+#The iTelescope code should run on any flavour of linux but the dependencies may vary. 
+
+###Essential###
+
+##Bluetooth##
+#dependencies:
+sudo apt-get install libbluetooth-dev
+sudo apt-get install bluez
+
+#install the bluez libs for python
+sudo apt-get install python-bluez
+
+#turn on the bluetooth and make it detectable. 
+#NOTE this must be done each time the rPi starts. 
+#The easiest way to do this is with a startup script (see below) 
+hciconfig hci0 piscan
+
+#disable pnum which will prevent serial comms
+#edit /etc/bluetooth/main.conf
+#to add the line:
+DisablePlugins = pnat 
+
+##ADC##
+using the adcpiv2 from ab electronics: 
+http://www.abelectronics.co.uk/products/3/Raspberry%20Pi/17/ADC-Pi-V2---Raspberry-Pi-Analogue-to-Digital-converter
+dependencies and config given here:
+https://github.com/quick2wire/quick2wire-python-api
+
+##to use with Python 2 you need smbus
+sudo apt-get install python-smbus
+
+
+###Optional###
+
+##Connection###
+#Make sure ssh is enabled.
+
+#For an easier connection from other linux devices, Install avahi: 
+sudo apt-get install avahi-daemon
+
+#now you can connect using
+ssh pi@raspberrypi.local
+
+##Startup Script##
+#It is advisable to configure the raspberry pi to run iTelescope on startup.
+# create a file called e.g. startScript with the following lines:
+sudo hciconfig hci0 piscan
+cd </full/path/to/iTelRaspberry>
+sudo python iTelescope.py
+
+#where </full/path/to/iTelRaspberry> is replace by your path.
+
+#Now edit the crontab:
+crontab -e
+#adding the following line:
+@reboot /bin/sleep 2 ; bash </full/path/to/startScript> >> </full/path/to/startupLog.log> 2>&1
+
+#where </full/path/to/startScript> and </full/path/to/startupLog.log> are replaced with the paths you wish to use on the rPi.
+#Any error messages will be caught in the startupLog.log file. 
+
+
+
