@@ -1,6 +1,7 @@
 import stellariumConnect, angles, serial, numpy as np, sys
 from datetime import datetime, timedelta
 from reportCoordinates import reportCoordinates
+import scrollWheelMac as scroll
 
 AVERAGE_LENGTH = 15.
 
@@ -17,6 +18,8 @@ stelCon.sendStellariumCoords(angles.Angle(r=0), angles.Angle(r=0))
 imu = serial.Serial(portIdentifier, 115200)
 try:
 	avgIdx = 0
+	encoderPrev, encoderDelta = (0, 0)
+	first = True
 	while True:
 		yawAvg, pitchAvg, rollAvg, zoomAvg = (np.zeros(AVERAGE_LENGTH), np.zeros(AVERAGE_LENGTH), np.zeros(AVERAGE_LENGTH), np.zeros(AVERAGE_LENGTH))
 		for i in range(int(AVERAGE_LENGTH)):
@@ -37,6 +40,12 @@ try:
 		pitch = (pitchAvg.sum() / AVERAGE_LENGTH)*(-1)
 		roll = rollAvg.sum() / AVERAGE_LENGTH
 		zoom = zoomAvg.sum() / AVERAGE_LENGTH
+
+		encoderDelta, encoderPrev = (zoom - encoderPrev, zoom)
+		if not first and encoderDelta > 0:
+			scroll.scrollWheelUp(abs(int(encoderDelta)))
+		if not first and encoderDelta < 0:
+			scroll.scrollWheelDown(abs(int(encoderDelta)))
 		#print yaw, pitch
 		if abs(pitch) > 90:
 			pitch = (180 - abs(pitch))*(pitch/abs(pitch))
@@ -45,6 +54,7 @@ try:
 		[rightAsc,declination] = reporter.getRaDec(yaw, pitch)
 		#print "%3.10f, %s"%(rightAsc.h, declination)
 		stelCon.sendStellariumCoords(rightAsc, declination)
+		first = False
 except KeyboardInterrupt:
 	imu.close()
 	stelCon.closeConnection()
