@@ -1,0 +1,415 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\Emerich Kovacs III\Documents\GitHub\StellarScope\Arduino Shield\Arduino Shield PCB.PcbDoc
+Date     : 12/04/2015
+Time     : 12:23:46 AM
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+   Violation between Un-Routed Net Constraint: Net 5V Between Track on layer Solder Side (467,1325mil) And Track on layer Solder Side (818,1675mil)
+Rule Violations :1
+
+Processing Rule : Clearance Constraint (Gap=5mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=5mil) (Max=50mil) (Preferred=10mil) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=11.811mil) (Max=100mil) (All)
+   Violation between Hole Size Constraint (137.795mil > 100mil) : Pad GPS-(126mil,534mil)  Multi-Layer
+   Violation between Hole Size Constraint (137.795mil > 100mil) : Pad GPS-(126mil,944mil)  Multi-Layer
+   Violation between Hole Size Constraint (137.795mil > 100mil) : Pad ENCODER-(127mil,1680mil)  Multi-Layer
+   Violation between Hole Size Constraint (137.795mil > 100mil) : Pad ENCODER-(127mil,1170mil)  Multi-Layer
+   Violation between Hole Size Constraint (125.984mil > 100mil) : Pad Free-0(600mil,2000mil)  Multi-Layer
+   Violation between Hole Size Constraint (125.984mil > 100mil) : Pad Free-0(2600mil,1400mil)  Multi-Layer
+   Violation between Hole Size Constraint (125.984mil > 100mil) : Pad Free-0(2600mil,300mil)  Multi-Layer
+Rule Violations :7
+
+Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=10mil) (All),(All)
+   Violation between Via (500mil,1570mil) Component Side to Solder Side and 
+                     Pad ENCODER-5(467mil,1625mil)  Multi-Layer
+   Violation between Via (500mil,1170mil) Component Side to Solder Side and 
+                     Pad ENCODER-1(467mil,1225mil)  Multi-Layer
+   Violation between Via (1600mil,170mil) Component Side to Solder Side and 
+                     Pad POWER-3(1600mil,100mil)  Multi-Layer
+   Violation between Via (1200mil,170mil) Component Side to Solder Side and 
+                     Pad POWER-7(1200mil,100mil)  Multi-Layer
+   Violation between Via (1800mil,170mil) Component Side to Solder Side and 
+                     Pad POWER-1(1800mil,100mil)  Multi-Layer
+   Violation between Via (2400mil,170mil) Component Side to Solder Side and 
+                     Pad AD-5(2400mil,100mil)  Multi-Layer
+   Violation between Via (2200mil,170mil) Component Side to Solder Side and 
+                     Pad AD-3(2200mil,100mil)  Multi-Layer
+   Violation between Via (2000mil,170mil) Component Side to Solder Side and 
+                     Pad AD-1(2000mil,100mil)  Multi-Layer
+   Violation between Pad U2-21(1459.835mil,1214.331mil)  Component Side and 
+                     Pad U2-20(1459.835mil,1234.016mil)  Component Side
+   Violation between Pad U2-19(1492.315mil,1235mil)  Component Side and 
+                     Pad U2-20(1459.835mil,1234.016mil)  Component Side
+   Violation between Pad U2-22(1459.835mil,1194.646mil)  Component Side and 
+                     Pad U2-21(1459.835mil,1214.331mil)  Component Side
+   Violation between Pad U2-19(1492.315mil,1235mil)  Component Side and 
+                     Pad U2-21(1459.835mil,1214.331mil)  Component Side
+   Violation between Pad U2-23(1459.835mil,1174.961mil)  Component Side and 
+                     Pad U2-22(1459.835mil,1194.646mil)  Component Side
+   Violation between Pad U2-24(1459.835mil,1155.276mil)  Component Side and 
+                     Pad U2-23(1459.835mil,1174.961mil)  Component Side
+   Violation between Pad U2-25(1459.835mil,1135.591mil)  Component Side and 
+                     Pad U2-24(1459.835mil,1155.276mil)  Component Side
+   Violation between Pad U2-26(1459.835mil,1115.906mil)  Component Side and 
+                     Pad U2-25(1459.835mil,1135.591mil)  Component Side
+   Violation between Pad U2-27(1459.835mil,1096.22mil)  Component Side and 
+                     Pad U2-26(1459.835mil,1115.906mil)  Component Side
+   Violation between Pad U2-28(1459.835mil,1076.535mil)  Component Side and 
+                     Pad U2-27(1459.835mil,1096.22mil)  Component Side
+   Violation between Pad U2-1(1459.835mil,1056.85mil)  Component Side and 
+                     Pad U2-28(1459.835mil,1076.535mil)  Component Side
+   Violation between Pad U2-2(1492.315mil,1055.866mil)  Component Side and 
+                     Pad U2-28(1459.835mil,1076.535mil)  Component Side
+   Violation between Pad U2-2(1492.315mil,1055.866mil)  Component Side and 
+                     Pad U2-1(1459.835mil,1056.85mil)  Component Side
+   Violation between Pad U2-5(1551.37mil,1055.866mil)  Component Side and 
+                     Pad U2-6(1583.85mil,1056.85mil)  Component Side
+   Violation between Pad U2-7(1583.85mil,1076.535mil)  Component Side and 
+                     Pad U2-6(1583.85mil,1056.85mil)  Component Side
+   Violation between Pad U2-5(1551.37mil,1055.866mil)  Component Side and 
+                     Pad U2-7(1583.85mil,1076.535mil)  Component Side
+   Violation between Pad U2-8(1583.85mil,1096.22mil)  Component Side and 
+                     Pad U2-7(1583.85mil,1076.535mil)  Component Side
+   Violation between Pad U2-9(1583.85mil,1115.906mil)  Component Side and 
+                     Pad U2-8(1583.85mil,1096.22mil)  Component Side
+   Violation between Pad U2-10(1583.85mil,1135.591mil)  Component Side and 
+                     Pad U2-9(1583.85mil,1115.906mil)  Component Side
+   Violation between Pad U2-11(1583.85mil,1155.276mil)  Component Side and 
+                     Pad U2-10(1583.85mil,1135.591mil)  Component Side
+   Violation between Pad U2-12(1583.85mil,1174.961mil)  Component Side and 
+                     Pad U2-11(1583.85mil,1155.276mil)  Component Side
+   Violation between Pad U2-13(1583.85mil,1194.646mil)  Component Side and 
+                     Pad U2-12(1583.85mil,1174.961mil)  Component Side
+   Violation between Pad U2-14(1583.85mil,1214.331mil)  Component Side and 
+                     Pad U2-13(1583.85mil,1194.646mil)  Component Side
+   Violation between Pad U2-16(1551.37mil,1235mil)  Component Side and 
+                     Pad U2-14(1583.85mil,1214.331mil)  Component Side
+   Violation between Pad U2-15(1583.85mil,1234.016mil)  Component Side and 
+                     Pad U2-14(1583.85mil,1214.331mil)  Component Side
+   Violation between Pad U2-16(1551.37mil,1235mil)  Component Side and 
+                     Pad U2-15(1583.85mil,1234.016mil)  Component Side
+   Violation between Pad U2-17(1531.685mil,1235mil)  Component Side and 
+                     Pad U2-16(1551.37mil,1235mil)  Component Side
+   Violation between Pad U2-18(1512mil,1235mil)  Component Side and 
+                     Pad U2-17(1531.685mil,1235mil)  Component Side
+   Violation between Pad U2-19(1492.315mil,1235mil)  Component Side and 
+                     Pad U2-18(1512mil,1235mil)  Component Side
+   Violation between Pad U2-3(1512mil,1055.866mil)  Component Side and 
+                     Pad U2-2(1492.315mil,1055.866mil)  Component Side
+   Violation between Pad U2-4(1531.685mil,1055.866mil)  Component Side and 
+                     Pad U2-3(1512mil,1055.866mil)  Component Side
+   Violation between Pad U2-5(1551.37mil,1055.866mil)  Component Side and 
+                     Pad U2-4(1531.685mil,1055.866mil)  Component Side
+   Violation between Via (1645mil,1014mil) Component Side to Solder Side and 
+                     Pad C3-1(1645mil,1061.441mil)  Component Side
+   Violation between Via (1165mil,1676mil) Component Side to Solder Side and 
+                     Pad C1-1(1153.559mil,1618mil)  Component Side
+Rule Violations :42
+
+Processing Rule : Silk To Solder Mask (Clearance=10mil) (IsPad),(All)
+   Violation between Arc (2079mil,1567.559mil)  Top Overlay and 
+                     Pad DS2-2(2100mil,1546.465mil)  Component Side
+   Violation between Arc (2121mil,1567.559mil)  Top Overlay and 
+                     Pad DS2-2(2100mil,1546.465mil)  Component Side
+   Violation between Arc (2079mil,1458.441mil)  Top Overlay and 
+                     Pad DS2-1(2100mil,1479.535mil)  Component Side
+   Violation between Arc (2121mil,1458.441mil)  Top Overlay and 
+                     Pad DS2-1(2100mil,1479.535mil)  Component Side
+   Violation between Arc (1977mil,1567.559mil)  Top Overlay and 
+                     Pad DS1-2(1998mil,1546.465mil)  Component Side
+   Violation between Arc (2019mil,1567.559mil)  Top Overlay and 
+                     Pad DS1-2(1998mil,1546.465mil)  Component Side
+   Violation between Arc (1977mil,1458.441mil)  Top Overlay and 
+                     Pad DS1-1(1998mil,1479.535mil)  Component Side
+   Violation between Arc (2019mil,1458.441mil)  Top Overlay and 
+                     Pad DS1-1(1998mil,1479.535mil)  Component Side
+   Violation between Text "AD5" (2500mil,187.071mil)  Top Overlay and 
+                     Pad Free-0(2600mil,300mil)  Multi-Layer
+   Violation between Track (1413.78mil,1102.031mil)(1413.78mil,1105.968mil)  Top Overlay and 
+                     Pad C5-1(1400mil,1131.559mil)  Component Side
+   Violation between Track (1386.22mil,1102.031mil)(1386.22mil,1105.968mil)  Top Overlay and 
+                     Pad C5-1(1400mil,1131.559mil)  Component Side
+   Violation between Track (1413.78mil,1102.031mil)(1413.78mil,1105.968mil)  Top Overlay and 
+                     Pad C5-2(1400mil,1076.441mil)  Component Side
+   Violation between Track (1386.22mil,1102.031mil)(1386.22mil,1105.968mil)  Top Overlay and 
+                     Pad C5-2(1400mil,1076.441mil)  Component Side
+   Violation between Track (870.22mil,1489.032mil)(870.22mil,1492.968mil)  Top Overlay and 
+                     Pad R5-1(884mil,1518.559mil)  Component Side
+   Violation between Track (897.78mil,1489.032mil)(897.78mil,1492.968mil)  Top Overlay and 
+                     Pad R5-1(884mil,1518.559mil)  Component Side
+   Violation between Track (870.22mil,1489.032mil)(870.22mil,1492.968mil)  Top Overlay and 
+                     Pad R5-2(884mil,1463.441mil)  Component Side
+   Violation between Track (897.78mil,1489.032mil)(897.78mil,1492.968mil)  Top Overlay and 
+                     Pad R5-2(884mil,1463.441mil)  Component Side
+   Violation between Track (1079.22mil,1490.032mil)(1079.22mil,1493.968mil)  Top Overlay and 
+                     Pad R6-1(1093mil,1519.559mil)  Component Side
+   Violation between Track (1106.78mil,1490.032mil)(1106.78mil,1493.968mil)  Top Overlay and 
+                     Pad R6-1(1093mil,1519.559mil)  Component Side
+   Violation between Track (1079.22mil,1490.032mil)(1079.22mil,1493.968mil)  Top Overlay and 
+                     Pad R6-2(1093mil,1464.441mil)  Component Side
+   Violation between Track (1106.78mil,1490.032mil)(1106.78mil,1493.968mil)  Top Overlay and 
+                     Pad R6-2(1093mil,1464.441mil)  Component Side
+   Violation between Track (1984.22mil,1659.032mil)(1984.22mil,1662.968mil)  Top Overlay and 
+                     Pad R1-1(1998mil,1633.441mil)  Component Side
+   Violation between Track (2011.78mil,1659.032mil)(2011.78mil,1662.968mil)  Top Overlay and 
+                     Pad R1-1(1998mil,1633.441mil)  Component Side
+   Violation between Track (1984.22mil,1659.032mil)(1984.22mil,1662.968mil)  Top Overlay and 
+                     Pad R1-2(1998mil,1688.559mil)  Component Side
+   Violation between Track (2011.78mil,1659.032mil)(2011.78mil,1662.968mil)  Top Overlay and 
+                     Pad R1-2(1998mil,1688.559mil)  Component Side
+   Violation between Track (2113.78mil,1659.032mil)(2113.78mil,1662.968mil)  Top Overlay and 
+                     Pad R2-1(2100mil,1633.441mil)  Component Side
+   Violation between Track (2086.22mil,1659.032mil)(2086.22mil,1662.968mil)  Top Overlay and 
+                     Pad R2-1(2100mil,1633.441mil)  Component Side
+   Violation between Track (2113.78mil,1659.032mil)(2113.78mil,1662.968mil)  Top Overlay and 
+                     Pad R2-2(2100mil,1688.559mil)  Component Side
+   Violation between Track (2086.22mil,1659.032mil)(2086.22mil,1662.968mil)  Top Overlay and 
+                     Pad R2-2(2100mil,1688.559mil)  Component Side
+   Violation between Track (2070.5mil,1458.441mil)(2070.5mil,1567.559mil)  Top Overlay and 
+                     Pad DS2-1(2100mil,1479.535mil)  Component Side
+   Violation between Track (2129.5mil,1458.441mil)(2129.5mil,1567.559mil)  Top Overlay and 
+                     Pad DS2-1(2100mil,1479.535mil)  Component Side
+   Violation between Track (2079mil,1449.941mil)(2121mil,1449.941mil)  Top Overlay and 
+                     Pad DS2-1(2100mil,1479.535mil)  Component Side
+   Violation between Area Fill (2058.247mil,1568.415mil) (2081.247mil,1574.915mil)  Top Overlay and 
+                     Pad DS2-2(2100mil,1546.465mil)  Component Side
+   Violation between Track (2070.5mil,1458.441mil)(2070.5mil,1567.559mil)  Top Overlay and 
+                     Pad DS2-2(2100mil,1546.465mil)  Component Side
+   Violation between Area Fill (2117.047mil,1566.715mil) (2142.647mil,1574.015mil)  Top Overlay and 
+                     Pad DS2-2(2100mil,1546.465mil)  Component Side
+   Violation between Track (2129.5mil,1458.441mil)(2129.5mil,1567.559mil)  Top Overlay and 
+                     Pad DS2-2(2100mil,1546.465mil)  Component Side
+   Violation between Area Fill (2090.997mil,1548.165mil) (2108.997mil,1615.165mil)  Top Overlay and 
+                     Pad DS2-2(2100mil,1546.465mil)  Component Side
+   Violation between Track (2079mil,1576.059mil)(2121mil,1576.059mil)  Top Overlay and 
+                     Pad DS2-2(2100mil,1546.465mil)  Component Side
+   Violation between Track (1968.5mil,1458.441mil)(1968.5mil,1567.559mil)  Top Overlay and 
+                     Pad DS1-1(1998mil,1479.535mil)  Component Side
+   Violation between Track (2027.5mil,1458.441mil)(2027.5mil,1567.559mil)  Top Overlay and 
+                     Pad DS1-1(1998mil,1479.535mil)  Component Side
+   Violation between Track (1977mil,1449.941mil)(2019mil,1449.941mil)  Top Overlay and 
+                     Pad DS1-1(1998mil,1479.535mil)  Component Side
+   Violation between Area Fill (1956.247mil,1568.415mil) (1979.247mil,1574.915mil)  Top Overlay and 
+                     Pad DS1-2(1998mil,1546.465mil)  Component Side
+   Violation between Track (1968.5mil,1458.441mil)(1968.5mil,1567.559mil)  Top Overlay and 
+                     Pad DS1-2(1998mil,1546.465mil)  Component Side
+   Violation between Area Fill (2015.047mil,1566.715mil) (2040.647mil,1574.015mil)  Top Overlay and 
+                     Pad DS1-2(1998mil,1546.465mil)  Component Side
+   Violation between Track (2027.5mil,1458.441mil)(2027.5mil,1567.559mil)  Top Overlay and 
+                     Pad DS1-2(1998mil,1546.465mil)  Component Side
+   Violation between Area Fill (1988.997mil,1548.165mil) (2006.997mil,1615.165mil)  Top Overlay and 
+                     Pad DS1-2(1998mil,1546.465mil)  Component Side
+   Violation between Track (1977mil,1576.059mil)(2019mil,1576.059mil)  Top Overlay and 
+                     Pad DS1-2(1998mil,1546.465mil)  Component Side
+   Violation between Track (1557.031mil,987.22mil)(1560.968mil,987.22mil)  Top Overlay and 
+                     Pad C4-1(1586.559mil,1001mil)  Component Side
+   Violation between Track (1557.031mil,1014.779mil)(1560.968mil,1014.779mil)  Top Overlay and 
+                     Pad C4-1(1586.559mil,1001mil)  Component Side
+   Violation between Track (1557.031mil,987.22mil)(1560.968mil,987.22mil)  Top Overlay and 
+                     Pad C4-2(1531.441mil,1001mil)  Component Side
+   Violation between Track (1557.031mil,1014.779mil)(1560.968mil,1014.779mil)  Top Overlay and 
+                     Pad C4-2(1531.441mil,1001mil)  Component Side
+   Violation between Track (1631.22mil,1087.032mil)(1631.22mil,1090.969mil)  Top Overlay and 
+                     Pad C3-1(1645mil,1061.441mil)  Component Side
+   Violation between Track (1658.78mil,1087.032mil)(1658.78mil,1090.969mil)  Top Overlay and 
+                     Pad C3-1(1645mil,1061.441mil)  Component Side
+   Violation between Track (1631.22mil,1087.032mil)(1631.22mil,1090.969mil)  Top Overlay and 
+                     Pad C3-2(1645mil,1116.559mil)  Component Side
+   Violation between Track (1658.78mil,1087.032mil)(1658.78mil,1090.969mil)  Top Overlay and 
+                     Pad C3-2(1645mil,1116.559mil)  Component Side
+   Violation between Track (846.032mil,1605.78mil)(849.969mil,1605.78mil)  Top Overlay and 
+                     Pad C2-1(820.441mil,1592mil)  Component Side
+   Violation between Track (846.032mil,1578.22mil)(849.969mil,1578.22mil)  Top Overlay and 
+                     Pad C2-1(820.441mil,1592mil)  Component Side
+   Violation between Track (846.032mil,1605.78mil)(849.969mil,1605.78mil)  Top Overlay and 
+                     Pad C2-2(875.559mil,1592mil)  Component Side
+   Violation between Track (846.032mil,1578.22mil)(849.969mil,1578.22mil)  Top Overlay and 
+                     Pad C2-2(875.559mil,1592mil)  Component Side
+   Violation between Track (1124.031mil,1604.22mil)(1127.968mil,1604.22mil)  Top Overlay and 
+                     Pad C1-1(1153.559mil,1618mil)  Component Side
+   Violation between Track (1124.031mil,1631.78mil)(1127.968mil,1631.78mil)  Top Overlay and 
+                     Pad C1-1(1153.559mil,1618mil)  Component Side
+   Violation between Track (1124.031mil,1604.22mil)(1127.968mil,1604.22mil)  Top Overlay and 
+                     Pad C1-2(1098.441mil,1618mil)  Component Side
+   Violation between Track (1124.031mil,1631.78mil)(1127.968mil,1631.78mil)  Top Overlay and 
+                     Pad C1-2(1098.441mil,1618mil)  Component Side
+   Violation between Track (1106.78mil,1717.032mil)(1106.78mil,1720.968mil)  Top Overlay and 
+                     Pad R4-1(1093mil,1691.441mil)  Component Side
+   Violation between Track (1079.22mil,1717.032mil)(1079.22mil,1720.968mil)  Top Overlay and 
+                     Pad R4-1(1093mil,1691.441mil)  Component Side
+   Violation between Track (1106.78mil,1717.032mil)(1106.78mil,1720.968mil)  Top Overlay and 
+                     Pad R4-2(1093mil,1746.559mil)  Component Side
+   Violation between Track (1079.22mil,1717.032mil)(1079.22mil,1720.968mil)  Top Overlay and 
+                     Pad R4-2(1093mil,1746.559mil)  Component Side
+   Violation between Track (870.22mil,1718.032mil)(870.22mil,1721.968mil)  Top Overlay and 
+                     Pad R3-1(884mil,1692.441mil)  Component Side
+   Violation between Track (897.78mil,1718.032mil)(897.78mil,1721.968mil)  Top Overlay and 
+                     Pad R3-1(884mil,1692.441mil)  Component Side
+   Violation between Track (870.22mil,1718.032mil)(870.22mil,1721.968mil)  Top Overlay and 
+                     Pad R3-2(884mil,1747.559mil)  Component Side
+   Violation between Track (897.78mil,1718.032mil)(897.78mil,1721.968mil)  Top Overlay and 
+                     Pad R3-2(884mil,1747.559mil)  Component Side
+   Violation between Track (968.575mil,1664.654mil)(1007.945mil,1664.654mil)  Top Overlay and 
+                     Pad U1-8(1034.52mil,1643mil)  Component Side
+   Violation between Track (1007.945mil,1546.543mil)(1007.945mil,1664.654mil)  Top Overlay and 
+                     Pad U1-8(1034.52mil,1643mil)  Component Side
+   Violation between Track (1007.945mil,1546.543mil)(1007.945mil,1664.654mil)  Top Overlay and 
+                     Pad U1-7(1034.52mil,1617.409mil)  Component Side
+   Violation between Track (1007.945mil,1546.543mil)(1007.945mil,1664.654mil)  Top Overlay and 
+                     Pad U1-6(1034.52mil,1591.819mil)  Component Side
+   Violation between Track (968.575mil,1546.543mil)(1007.945mil,1546.543mil)  Top Overlay and 
+                     Pad U1-5(1034.52mil,1566.228mil)  Component Side
+   Violation between Track (1007.945mil,1546.543mil)(1007.945mil,1664.654mil)  Top Overlay and 
+                     Pad U1-5(1034.52mil,1566.228mil)  Component Side
+   Violation between Track (968.575mil,1546.543mil)(1007.945mil,1546.543mil)  Top Overlay and 
+                     Pad U1-4(942mil,1566.228mil)  Component Side
+   Violation between Track (968.575mil,1546.543mil)(968.575mil,1664.654mil)  Top Overlay and 
+                     Pad U1-4(942mil,1566.228mil)  Component Side
+   Violation between Track (968.575mil,1546.543mil)(968.575mil,1664.654mil)  Top Overlay and 
+                     Pad U1-3(942mil,1591.819mil)  Component Side
+   Violation between Track (968.575mil,1546.543mil)(968.575mil,1664.654mil)  Top Overlay and 
+                     Pad U1-2(942mil,1617.409mil)  Component Side
+   Violation between Track (968.575mil,1664.654mil)(1007.945mil,1664.654mil)  Top Overlay and 
+                     Pad U1-1(942mil,1643mil)  Component Side
+   Violation between Track (968.575mil,1546.543mil)(968.575mil,1664.654mil)  Top Overlay and 
+                     Pad U1-1(942mil,1643mil)  Component Side
+Rule Violations :83
+
+Processing Rule : Silk to Silk (Clearance=10mil) (All),(All)
+   Violation between Text "DS2" (2146mil,1499mil)  Top Overlay and 
+                     Track (2129.5mil,1458.441mil)(2129.5mil,1567.559mil)  Top Overlay
+   Violation between Text "3V3" (1399mil,164mil)  Top Overlay and 
+                     Track (1050mil,150mil)(1850mil,150mil)  Top Overlay
+Rule Violations :2
+
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=12mil) (InNetClass('ENC')),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Annular Ring (Minimum=12mil) (All)
+   Violation between Minimum Annular Ring (9.842mil < 12mil) : Pad GPS-1(466mil,589mil)  Multi-Layer
+   Violation between Minimum Annular Ring (9.842mil < 12mil) : Pad GPS-2(466mil,689mil)  Multi-Layer
+   Violation between Minimum Annular Ring (9.842mil < 12mil) : Pad GPS-3(466mil,789mil)  Multi-Layer
+   Violation between Minimum Annular Ring (9.842mil < 12mil) : Pad GPS-4(466mil,889mil)  Multi-Layer
+   Violation between Minimum Annular Ring (9.842mil < 12mil) : Pad ENCODER-3(467mil,1425mil)  Multi-Layer
+   Violation between Minimum Annular Ring (9.842mil < 12mil) : Pad ENCODER-5(467mil,1625mil)  Multi-Layer
+   Violation between Minimum Annular Ring (9.842mil < 12mil) : Pad ENCODER-4(467mil,1525mil)  Multi-Layer
+   Violation between Minimum Annular Ring (9.842mil < 12mil) : Pad ENCODER-2(467mil,1325mil)  Multi-Layer
+   Violation between Minimum Annular Ring (9.842mil < 12mil) : Pad ENCODER-1(467mil,1225mil)  Multi-Layer
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (2400mil,1370mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (2500mil,1170mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (2400mil,970mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (2500mil,770mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (2400mil,570mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (2500mil,370mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (2400mil,170mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (2300mil,1570mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (2300mil,1170mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (2200mil,970mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (2300mil,770mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (2200mil,570mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (2300mil,370mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (2200mil,170mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (2000mil,1370mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (2000mil,970mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (2100mil,770mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (2000mil,570mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (2100mil,370mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (2000mil,170mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (1800mil,1770mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (1900mil,1570mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (1800mil,1370mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (1900mil,1170mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (1900mil,770mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (1800mil,570mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (1900mil,370mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (1800mil,170mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (1700mil,1970mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (1600mil,1770mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (1700mil,1570mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (1600mil,1370mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (1600mil,570mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (1700mil,370mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (1600mil,170mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (1400mil,1770mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (1500mil,1570mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (1400mil,1370mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (1400mil,970mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (1500mil,370mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (1200mil,1770mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (1300mil,1570mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (1200mil,1370mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (1300mil,1170mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (1200mil,970mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (1200mil,570mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (1300mil,370mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (1200mil,170mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (1100mil,1170mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (1000mil,970mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (1000mil,570mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (1100mil,370mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (1000mil,170mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (800mil,1770mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (900mil,1170mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (800mil,970mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (800mil,570mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (900mil,370mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (800mil,170mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (600mil,1770mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (700mil,1570mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (600mil,1370mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (700mil,1170mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (600mil,970mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (600mil,570mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (700mil,370mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (600mil,170mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (500mil,1970mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (400mil,1770mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (500mil,1570mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (400mil,1370mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (500mil,1170mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (400mil,970mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (400mil,570mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (500mil,370mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (400mil,170mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (300mil,1970mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (300mil,1570mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (200mil,1370mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (300mil,1170mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (300mil,770mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (300mil,370mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (10mil < 12mil) : Via (200mil,170mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (11mil < 12mil) : Via (1343mil,1302mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (11mil < 12mil) : Via (955mil,1378mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (11mil < 12mil) : Via (1645mil,1014mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (11mil < 12mil) : Via (1165mil,1676mil) Component Side to Solder Side
+   Violation between Minimum Annular Ring (11mil < 12mil) : Via (818mil,1675mil) Component Side to Solder Side
+Rule Violations :97
+
+Processing Rule : Width Constraint (Min=16mil) (Max=16mil) (Preferred=16mil) (InNet('NetP1_1'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=6mil) (InNet('NetP1_1')),(InNet('GND'))
+Rule Violations :0
+
+
+Violations Detected : 232
+Time Elapsed        : 00:00:02

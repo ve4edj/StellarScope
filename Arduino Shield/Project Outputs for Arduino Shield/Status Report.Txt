@@ -1,0 +1,19 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [Arduino Shield.PrjPcb]
+   Generated File[Arduino Shield PCB.GTL]
+   Generated File[Arduino Shield PCB.GBL]
+   Generated File[Arduino Shield PCB.GTO]
+   Generated File[Arduino Shield PCB.GTS]
+   Generated File[Arduino Shield PCB.GBS]
+   Generated File[Arduino Shield PCB.GBO]
+   Generated File[Arduino Shield PCB.GM1]
+   Generated File[Arduino Shield PCB.RUL]
+   Generated File[Arduino Shield PCB.EXTREP]
+   Generated File[Arduino Shield PCB.REP]
+
+
+Files Generated   : 10
+Documents Printed : 0
+
+Finished Output Generation At 12:00:12 AM On 12/04/2015

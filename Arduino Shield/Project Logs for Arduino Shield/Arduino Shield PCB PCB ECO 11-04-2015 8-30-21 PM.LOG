@@ -1,0 +1,173 @@
+Removed Pin From Net: NetName=3V3 Pin=C1-2
+Removed Pin From Net: NetName=5V Pin=C2-1
+Removed Pin From Net: NetName=GND Pin=C2-2
+Removed Pin From Net: NetName=3V3 Pin=C3-1
+Removed Pin From Net: NetName=GND Pin=C3-2
+Removed Pin From Net: NetName=GND Pin=C4-2
+Removed Pin From Net: NetName=3V3 Pin=C5-1
+Removed Pin From Net: NetName=GND Pin=C5-2
+Removed Pin From Net: NetName=3V3 Pin=C6-1
+Removed Pin From Net: NetName=GND Pin=C6-2
+Removed Pin From Net: NetName=5V Pin=ICSP-2
+Removed Pin From Net: NetName=GND Pin=ICSP-6
+Removed Pin From Net: NetName=GND Pin=P1-2
+Removed Pin From Net: NetName=GND Pin=P1-2
+Removed Pin From Net: NetName=GND Pin=P1-2
+Removed Pin From Net: NetName=GND Pin=P1-2
+Removed Pin From Net: NetName=NetIOH_9 Pin=R1-1
+Removed Pin From Net: NetName=5V Pin=R1-2
+Removed Pin From Net: NetName=NetIOH_10 Pin=R2-1
+Removed Pin From Net: NetName=5V Pin=R2-2
+Removed Pin From Net: NetName=3V3 Pin=R3-2
+Removed Pin From Net: NetName=3V3 Pin=R4-2
+Removed Pin From Net: NetName=3V3 Pin=U1-2
+Removed Pin From Net: NetName=3V3 Pin=U1-3
+Removed Pin From Net: NetName=GND Pin=U1-7
+Removed Pin From Net: NetName=GND Pin=U3-2
+Removed Pin From Net: NetName=3V3 Pin=U3-3
+Removed Pin From Net: NetName=3V3 Pin=U3-4
+Removed Pin From Net: NetName=3V3 Pin=U3-5
+Removed Pin From Net: NetName=3V3 Pin=U3-6
+Removed Pin From Net: NetName=GND Pin=U3-7
+Removed Pin From Net: NetName=3V3 Pin=U3-11
+Removed Pin From Net: NetName=GND Pin=U3-17
+Removed Pin From Net: NetName=GND Pin=U3-18
+Removed Pin From Net: NetName=GND Pin=U3-25
+Removed Pin From Net: NetName=3V3 Pin=U3-28
+Removed Pin From Net: NetName=GND Pin=U4-1
+Removed Pin From Net: NetName=GND Pin=U4-3
+Removed Pin From Net: NetName=5V Pin=U4-5
+Removed Pin From Net: NetName=GND Pin=U4-6
+Removed Member From Class: ClassName=Arduino Shield Member=C3
+Removed Member From Class: ClassName=Arduino Shield Member=C4
+Removed Member From Class: ClassName=Arduino Shield Member=C5
+Removed Member From Class: ClassName=Arduino Shield Member=C6
+Removed Member From Class: ClassName=Arduino Connectors Member=ICSP
+Removed Member From Class: ClassName=Arduino Shield Member=P1
+Removed Member From Class: ClassName=Arduino Shield Member=R1
+Removed Member From Class: ClassName=Arduino Shield Member=R2
+Removed Member From Class: ClassName=Arduino Shield Member=U2
+Removed Member From Class: ClassName=Arduino Shield Member=U3
+Removed Member From Class: ClassName=Arduino Shield Member=U4
+Removed Member From Class: ClassName=IMU Sensor Member=NetC4_1
+Removed Member From Class: ClassName=I2C Level Shifter Member=NetR3_1
+Removed Member From Class: ClassName=IMU Sensor Member=NetR3_1
+Removed Member From Class: ClassName=I2C Level Shifter Member=NetR4_1
+Removed Member From Class: ClassName=IMU Sensor Member=NetR4_1
+Change Component DesignItemId : Designator=C1 Old DesignItemId=0402C-TBD New DesignItemId=CMP-1035-02592-1
+Change Component DesignItemId : Designator=C2 Old DesignItemId=0402C-TBD New DesignItemId=CMP-1035-02592-1
+Change Component DesignItemId : Designator=C3 Old DesignItemId=0402C-TBD New DesignItemId=CMP-1035-02592-1
+Change Component DesignItemId : Designator=C4 Old DesignItemId=0402C-TBD New DesignItemId=CMP-1035-02592-1
+Change Component DesignItemId : Designator=C5 Old DesignItemId=0402C-TBD New DesignItemId=CMP-1035-02592-1
+Change Component DesignItemId : Designator=R1 Old DesignItemId=Res3 New DesignItemId=CMP-1012-00054-1
+Change Component DesignItemId : Designator=R2 Old DesignItemId=Res3 New DesignItemId=CMP-1012-00054-1
+Change Component DesignItemId : Designator=R3 Old DesignItemId=Res3 New DesignItemId=CMP-1012-00114-1
+Change Component DesignItemId : Designator=R4 Old DesignItemId=Res3 New DesignItemId=CMP-1012-00114-1
+Change Component Footprint: Designator=R1 Old Footprint=0402C-GENERIC New Footprint=RESC0603(1608)_L
+Change Component Footprint: Designator=R2 Old Footprint=0402C-GENERIC New Footprint=RESC0603(1608)_L
+Change Component Footprint: Designator=R3 Old Footprint=0402C-GENERIC New Footprint=RESC0603(1608)_L
+Change Component Footprint: Designator=R4 Old Footprint=0402C-GENERIC New Footprint=RESC0603(1608)_L
+Change Component Footprint: Designator=C1 Old Footprint=0402C-TBD New Footprint=CAPC0603(1608)100_L
+Change Component Footprint: Designator=C2 Old Footprint=0402C-TBD New Footprint=CAPC0603(1608)100_L
+Change Component Footprint: Designator=C3 Old Footprint=0402C-TBD New Footprint=CAPC0603(1608)100_L
+Change Component Footprint: Designator=C4 Old Footprint=0402C-TBD New Footprint=CAPC0603(1608)100_L
+Change Component Footprint: Designator=C5 Old Footprint=0402C-TBD New Footprint=CAPC0603(1608)100_L
+Change Component Comment : Designator=C1 Old Comment=100nF New Comment=CAP 100nF 50V 0603(1608)
+Change Component Comment : Designator=C2 Old Comment=100nF New Comment=CAP 100nF 50V 0603(1608)
+Change Component Comment : Designator=C3 Old Comment=100nF New Comment=CAP 100nF 50V 0603(1608)
+Change Component Comment : Designator=C4 Old Comment=100nF New Comment=CAP 100nF 50V 0603(1608)
+Change Component Comment : Designator=C5 Old Comment=100nF New Comment=CAP 100nF 50V 0603(1608)
+Change Component Comment : Designator=R3 Old Comment=Res3 New Comment=47K 5% 0603(1608)
+Change Component Comment : Designator=R4 Old Comment=Res3 New Comment=47K 5% 0603(1608)
+Change Component Comment : Designator=R1 Old Comment=Res3 New Comment=150R 5% 0603(1608)
+Change Component Comment : Designator=R2 Old Comment=Res3 New Comment=150R 5% 0603(1608)
+Change Component Designator: OldDesignator=U2 NewDesignator=U1
+Added Component: Designator=DS1(KING-LED0603-25-GREEN_V)
+Added Component: Designator=DS2(KING-LED0603-25-GREEN_V)
+Added Component: Designator=ENCODER(Header_5-103673-4_TE)
+Added Component: Designator=GPS(PCBComponent_1)
+Added Component: Designator=R5(RESC0603(1608)_L)
+Added Component: Designator=R6(RESC0603(1608)_L)
+Added Component: Designator=U2(BNO055)
+Added Pin To Net: NetName=5V Pin=C1-2
+Added Pin To Net: NetName=GND Pin=C2-1
+Added Pin To Net: NetName=3V3 Pin=C2-2
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=GND Pin=C4-1
+Added Pin To Net: NetName=3V3 Pin=C4-2
+Added Pin To Net: NetName=GND Pin=C5-1
+Added Pin To Net: NetName=3V3 Pin=C5-2
+Added Pin To Net: NetName=5V Pin=DS1-1
+Added Pin To Net: NetName=5V Pin=DS2-1
+Added Pin To Net: NetName=5V Pin=ENCODER-2
+Added Pin To Net: NetName=GND Pin=ENCODER-5
+Added Pin To Net: NetName=5V Pin=GPS-1
+Added Pin To Net: NetName=GND Pin=GPS-4
+Added Pin To Net: NetName=5V Pin=R3-1
+Added Pin To Net: NetName=NetIOH_9 Pin=R3-2
+Added Pin To Net: NetName=5V Pin=R4-1
+Added Pin To Net: NetName=NetIOH_10 Pin=R4-2
+Added Pin To Net: NetName=3V3 Pin=R5-1
+Added Pin To Net: NetName=3V3 Pin=R6-1
+Added Pin To Net: NetName=GND Pin=U2-2
+Added Pin To Net: NetName=3V3 Pin=U2-3
+Added Pin To Net: NetName=3V3 Pin=U2-4
+Added Pin To Net: NetName=3V3 Pin=U2-5
+Added Pin To Net: NetName=3V3 Pin=U2-6
+Added Pin To Net: NetName=GND Pin=U2-7
+Added Pin To Net: NetName=3V3 Pin=U2-11
+Added Pin To Net: NetName=GND Pin=U2-17
+Added Pin To Net: NetName=GND Pin=U2-18
+Added Pin To Net: NetName=GND Pin=U2-25
+Added Pin To Net: NetName=3V3 Pin=U2-28
+Added Pin To Net: NetName=NetC3_2 Pin=C3-2
+Added Pin To Net: NetName=NetC3_2 Pin=U2-9
+Added Net: Name=NetC3_2
+Added Pin To Net: NetName=NetDS1_2 Pin=DS1-2
+Added Pin To Net: NetName=NetDS1_2 Pin=R1-1
+Added Net: Name=NetDS1_2
+Added Pin To Net: NetName=NetDS2_2 Pin=DS2-2
+Added Pin To Net: NetName=NetDS2_2 Pin=R2-1
+Added Net: Name=NetDS2_2
+Added Pin To Net: NetName=NetENCODER_1 Pin=ENCODER-1
+Added Pin To Net: NetName=NetENCODER_1 Pin=IOL-4
+Added Net: Name=NetENCODER_1
+Added Pin To Net: NetName=NetENCODER_3 Pin=ENCODER-3
+Added Pin To Net: NetName=NetENCODER_3 Pin=IOL-3
+Added Net: Name=NetENCODER_3
+Added Pin To Net: NetName=NetGPS_2 Pin=GPS-2
+Added Pin To Net: NetName=NetGPS_2 Pin=IOL-2
+Added Net: Name=NetGPS_2
+Added Pin To Net: NetName=NetGPS_3 Pin=GPS-3
+Added Pin To Net: NetName=NetGPS_3 Pin=IOL-1
+Added Net: Name=NetGPS_3
+Added Pin To Net: NetName=NetIOL_5 Pin=IOL-5
+Added Pin To Net: NetName=NetIOL_5 Pin=R2-2
+Added Net: Name=NetIOL_5
+Added Pin To Net: NetName=NetIOL_6 Pin=IOL-6
+Added Pin To Net: NetName=NetIOL_6 Pin=R1-2
+Added Net: Name=NetIOL_6
+Added Pin To Net: NetName=NetR5_2 Pin=R5-2
+Added Pin To Net: NetName=NetR5_2 Pin=U1-4
+Added Pin To Net: NetName=NetR5_2 Pin=U2-20
+Added Net: Name=NetR5_2
+Added Pin To Net: NetName=NetR6_2 Pin=R6-2
+Added Pin To Net: NetName=NetR6_2 Pin=U1-5
+Added Pin To Net: NetName=NetR6_2 Pin=U2-19
+Added Net: Name=NetR6_2
+Change Class Name : Old Net Name=Arduino Connectors New Net Name=[02] - CONNECTORS
+Change Class Name : Old Net Name=Arduino Shield New Net Name=[04] - LEVEL_SHIFTER
+Added Class: Name=[03] - AMG
+Added Member To Class: ClassName=[02] - CONNECTORS Member=Component DS1 APG1608CGKC/T
+Added Member To Class: ClassName=[02] - CONNECTORS Member=Component DS2 APG1608CGKC/T
+Added Member To Class: ClassName=[02] - CONNECTORS Member=Component ENCODER 5-103673-4
+Added Member To Class: ClassName=[02] - CONNECTORS Member=Component GPS 5-103672-3
+Added Member To Class: ClassName=[02] - CONNECTORS Member=Component R1 150R 5% 0603(1608)
+Added Member To Class: ClassName=[02] - CONNECTORS Member=Component R2 150R 5% 0603(1608)
+Added Member To Class: ClassName=[04] - LEVEL_SHIFTER Member=Component R5 47K 5% 0603(1608)
+Added Member To Class: ClassName=[04] - LEVEL_SHIFTER Member=Component R6 47K 5% 0603(1608)
+Added Member To Class: ClassName=IMU Sensor Member=Wire NetC3_2
+Added Member To Class: ClassName=I2C Level Shifter Member=Wire NetR5_2
+Added Member To Class: ClassName=IMU Sensor Member=Wire NetR5_2
+Added Member To Class: ClassName=I2C Level Shifter Member=Wire NetR6_2
+Added Member To Class: ClassName=IMU Sensor Member=Wire NetR6_2

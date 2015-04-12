@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=NetGPS_3 Pin=IOL-1
+Removed Pin From Net: NetName=NetGPS_2 Pin=IOL-2
+Added Pin To Net: NetName=NetGPS_2 Pin=IOL-1
+Added Pin To Net: NetName=NetGPS_3 Pin=IOL-2

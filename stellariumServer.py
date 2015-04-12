@@ -1,7 +1,7 @@
 import stellariumConnect, angles, serial, datetime, numpy as np
 from reportCoordinates import reportCoordinates
 
-AVERAGE_LENGTH = 20.
+AVERAGE_LENGTH = 15.
 
 stelCon = stellariumConnect.stellariumConnect("localhost",10001)
 stelCon.handshakeStellarium()
@@ -25,7 +25,7 @@ try:
 				continue
 			avgIdx += 1
 
-		yaw = yawAvg.sum() / AVERAGE_LENGTH
+		yaw = ((yawAvg.sum() / AVERAGE_LENGTH) - 90) % 360
 		pitch = (pitchAvg.sum() / AVERAGE_LENGTH)*(-1)
 		roll = rollAvg.sum() / AVERAGE_LENGTH
 		zoom = zoomAvg.sum() / AVERAGE_LENGTH
@@ -35,7 +35,7 @@ try:
 
 		reporter = reportCoordinates(datetime.datetime.utcnow())
 		[rightAsc,declination] = reporter.getRaDec(yaw, pitch)
-		print "%3.10f, %s"%(rightAsc.h, declination)
+		#print "%3.10f, %s"%(rightAsc.h, declination)
 		stelCon.sendStellariumCoords(rightAsc, declination)
 except KeyboardInterrupt:
 	imu.close()

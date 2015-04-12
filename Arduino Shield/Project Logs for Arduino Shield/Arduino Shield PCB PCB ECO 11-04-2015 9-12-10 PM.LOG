@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=NetENCODER_3 Pin=IOL-3
+Removed Pin From Net: NetName=NetENCODER_1 Pin=IOL-4
+Added Pin To Net: NetName=NetENCODER_1 Pin=IOL-3
+Added Pin To Net: NetName=NetENCODER_3 Pin=IOL-4
