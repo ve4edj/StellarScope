@@ -8,7 +8,7 @@ class coordinates(object):
         self.LatLon = sidereal.LatLon(self.Lat.r,self.Lon.r)
         
     def getRaDec(self,Az,Alt):
-        
+        Az, Alt = angles.Angle(d=Az), angles.Angle(d=Alt)
         AltAz = sidereal.AltAz(Alt.r,Az.r)
 
         GST = sidereal.SiderealTime.fromDatetime(self.sysTime)
