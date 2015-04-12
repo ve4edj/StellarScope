@@ -302,9 +302,17 @@ void enc_isr()
 }
 
 void stellarium(){
-  float q[4];
-  BNO055_4_vec(QUA_DATA_W_LSB, &q[0]);
-  StellariumOut(&q[0],count);
+ // float q[4];
+ float temp[3];
+  BNO055_3_vec(EUL_HEADING_LSB ,&temp[0]);
+  Serial.print(temp[0]/16.0);
+  Serial.print(",");
+  Serial.print(temp[1]/16.0);
+  Serial.print(","); 
+  Serial.print(temp[2]/16.0);// BNO055_4_vec(QUA_DATA_W_LSB, &q[0]);
+  Serial.print(",");
+  Serial.println(count);
+  //StellariumOut(&q[0],count);
 }
 
 void acc(){
@@ -343,12 +351,11 @@ void linearAcc(){
 void print_3_vec(int8_t addr){
   float temp[3];
   BNO055_3_vec(addr ,&temp[0]);
-  Serial.print(temp[0]);
-  Serial.print(", ");
-  Serial.print(temp[1]);
-  Serial.print(", "); 
-  Serial.print(temp[2]);
-  Serial.println();
+  Serial.print((int)temp[0]);
+  Serial.print(",");
+  Serial.print((int)temp[1]);
+  Serial.print(","); 
+  Serial.print((int)temp[2]);
 }
 /*
 void print_3_vec_RF(int8_t addr){
