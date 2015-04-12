@@ -1,12 +1,20 @@
-import stellariumConnect, angles, serial, datetime, numpy as np
+import stellariumConnect, angles, serial, numpy as np, sys
+from datetime import datetime, timedelta
 from reportCoordinates import reportCoordinates
 
 AVERAGE_LENGTH = 15.
 
+if len(sys.argv) == 1:
+	print "Please call this script with the serial port identifier and optionally a time offset"
+	exit()
+elif len(sys.argv) > 1:
+	portIdentifier = '/dev/tty.' + sys.argv[1]
+	timeOffset = float(sys.argv[2]) if (len(sys.argv) == 3) else 0
+
 stelCon = stellariumConnect.stellariumConnect("localhost",10001)
 stelCon.handshakeStellarium()
 stelCon.sendStellariumCoords(angles.Angle(r=0), angles.Angle(r=0))
-imu = serial.Serial('/dev/tty.usbmodem1411', 115200)
+imu = serial.Serial(portIdentifier, 115200)
 try:
 	avgIdx = 0
 	while True:
@@ -33,7 +41,7 @@ try:
 		if abs(pitch) > 90:
 			pitch = (180 - abs(pitch))*(pitch/abs(pitch))
 
-		reporter = reportCoordinates(datetime.datetime.utcnow())
+		reporter = reportCoordinates(datetime.utcnow() + timedelta(hours=timeOffset))
 		[rightAsc,declination] = reporter.getRaDec(yaw, pitch)
 		#print "%3.10f, %s"%(rightAsc.h, declination)
 		stelCon.sendStellariumCoords(rightAsc, declination)

@@ -15,7 +15,7 @@ class coordinates(object):
         LST = GST.lst(self.Lon.r)
     
         RaDec = AltAz.raDec(LST, self.LatLon)
-    
+        
         Ra = angles.Angle(r=RaDec.ra)
         Dec = angles.Angle(r=RaDec.dec)
         
