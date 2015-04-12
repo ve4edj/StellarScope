@@ -292,7 +292,7 @@ void loop()
  // freeCube();
   stellarium();
   
-  delay(5);
+  delay(10);
 }
 
 void enc_isr()
