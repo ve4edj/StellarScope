@@ -47,13 +47,14 @@ try:
 		if not first and encoderDelta < 0:
 			scroll.scrollWheelDown(abs(int(encoderDelta)))
 		#print yaw, pitch
-		if abs(pitch) > 90:
-			pitch = (180 - abs(pitch))*(pitch/abs(pitch))
+		if encoderDelta == 0:
+			if abs(pitch) > 90:
+				pitch = (180 - abs(pitch))*(pitch/abs(pitch))
 
-		reporter = reportCoordinates(datetime.utcnow() + timedelta(hours=timeOffset))
-		[rightAsc,declination] = reporter.getRaDec(yaw, pitch)
-		#print "%3.10f, %s"%(rightAsc.h, declination)
-		stelCon.sendStellariumCoords(rightAsc, declination)
+			reporter = reportCoordinates(datetime.utcnow() + timedelta(hours=timeOffset))
+			[rightAsc,declination] = reporter.getRaDec(yaw, pitch)
+			#print "%3.10f, %s"%(rightAsc.h, declination)
+			stelCon.sendStellariumCoords(rightAsc, declination)
 		first = False
 except KeyboardInterrupt:
 	imu.close()
