@@ -1,5 +1,6 @@
 # StellarScope
 NASA Space Apps Challenge 2015 - Winnipeg, Canada
+
 A Stellarium-powered Virtual Reality Telescope
 
 Requires
@@ -10,6 +11,7 @@ Requires
 To Run
 ------
 python stellariumServer.py usbmodemfd121 5
+
 Where: /dev/tty.usbmodemfd121 is your Arduino and your Stellarium clock is set 5 hours ahead of real-time
 
 License
