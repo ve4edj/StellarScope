@@ -18,4 +18,6 @@ MIT-licensed
 
 ToDo
 ----
- - Refactor latitude and longitude to command-line arguments
+ - Refactor latitude and longitude to command-line arguments (optional, see below)
+ - Add capability to the arduino code to send coordinates to the computer from the GPS
+ - Refactor all the python code into a Stellarium Plugin
